@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p{
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+label {
+  margin: 5px 0;
+  display: block;
+}
+
+button {
+  display: block;
+}
+
+form {
+  width: 100%;
+}
+
+
+/* utilities */
+.primary-color {
+  background: #47Cf73;
+}
+
+#input-width {
+  width: 95%;
+  height: 35px;
+  font-size: 17px;
+  border-radius: 3px;
+  padding: 8px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+#submit-btn {
+  width:95%;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+#input-width.btn-sub {
+  background: #37af65;
+  color: #fff;
+  height: 50px;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 5px;
+  background: #222;
+  height: 68px;
+  position: absolute;
+  z-index: 2;
+}
+
+.navbar .nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .nav-items a {
+  padding: 10px 15px;
+  margin: 5px;
+  background: #444857;
+  border-radius: 5px;
+}
+
+.navbar .nav-items a:hover {
+  background: #636877;
+}
+
+.navbar .nav-items .primary-color {
+  background: #47Cf73;
+  color: #222;
+  font-weight: 600;
+}
+
+.navbar .nav-items .primary-color:hover {
+  background: #12a240;
+}
+
+/* Main section */
+
+body {
+  background: url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg') no-repeat center center/cover;
+  position: relative;
+  height: 1700px;
+  z-index: 1;
+}
+
+body::before {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:rgba(58, 58, 158, 0.8) ;
+}
+
+
+.box-1 {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  padding-top: 300px;
+  width: 650px;
+}
+
+.form-title .subtitle {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.box-2 {
+  position:absolute;
+  z-index: 2;
+  background: #1b1b32cc;
+  opacity: 0.9;
+  height: 1450px;
+  width: 650px;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 40px 30px 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
